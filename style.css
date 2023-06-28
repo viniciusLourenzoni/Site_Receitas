@@ -1,0 +1,106 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "lato", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.barra-de-topo {
+    background-color: #FF6B28;
+    padding: 5px;
+    text-align: center;
+}
+
+#cabecalho {
+    background: url("./images/cabecalho_bolo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    margin-bottom: -70px;
+}
+
+.conteudo {
+    margin: auto;
+    max-width: 990px;
+    padding: 0 40px;
+    margin-top: 100px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #FF6B28;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    margin-top: -50px;
+}
+
+.cartao {
+   /* border: 1px solid; */
+    padding: 70px 100px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.cartao:hover {
+    box-shadow: 8px 8px 15px 12px rgb(199, 197, 197); /* Sombreamento */
+}
+
+a {
+    text-decoration: none;
+}
+
+.botao-comprar {
+    background-color: #FF6B28;
+    padding: 16px;
+    border-radius: 20px;
+}
+
+li {
+    margin-bottom: 14px;
+}
+
+.lista-ingredientes {
+    margin-bottom: 50px;
+}
+
+p,
+li {
+    line-height: 28px; /* Espaçamento entre linhas */
+}
+
+.rodape {
+    background-color: #FF6B28;
+    padding: 10px;
+    text-align: center;
+}
+
+.rodape-texto {
+
+    max-width: 500px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text-white {
+    color: white;
+}
+
+.cartao.instrucoes {
+    margin-bottom: 15px;
+}
